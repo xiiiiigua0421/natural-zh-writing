@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: email-professor-reschedule
+expected_outcome: |
+  email.md 是一封自然、直接、有禮貌的信：開頭就說明要改 meeting 時間與原因，提供週四或週五下午的選項，
+  提到 baseline 已跑完但比論文低約 3 個點、想在 meeting 討論；沒有俏皮話，也沒有堆疊的客套語。

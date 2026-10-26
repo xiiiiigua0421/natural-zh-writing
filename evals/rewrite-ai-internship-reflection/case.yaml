@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: rewrite-ai-internship-reflection
+expected_outcome: |
+  reflection.md 是一篇讀起來像學生自己寫的實習心得：拿掉收穫良多、值得一提、綜上所述等套話，
+  以時區沒對齊導致兩週轉換率算錯、被主管抓到這件真實的事為核心，不編造使用者沒提供的公司名、數字或事件，
+  語氣適合放在系網上（自然但不過度口語）。

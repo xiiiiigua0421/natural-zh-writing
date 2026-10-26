@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: write-report-optimizer-comparison
+expected_outcome: |
+  optimizer_analysis.md 是一到兩段報告文字：數字與使用者提供的一致，講出 Adam 前期收斂快但 train loss 更低、test 更差的泛化落差，
+  以及 AdamW 把 weight decay 從梯度更新中解耦、恢復正則化效果；沒有第一人稱、冒號揭曉、路標句、自問自答、
+  「是 X 而不是 Y」之類的對比句型，也沒有分號。

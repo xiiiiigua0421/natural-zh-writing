@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: rewrite-ml-report-trees
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  trees_rewrite.md 是同兩小節的自然中文改寫：講 underfitting／overfitting 與 bagging／random forest 降低變異的因果，
+  不再有句中 key=value、重複句型與段尾但書；保留的數字全部與原文一致；最佳設定 max_depth=12、min_samples_leaf=5、
+  Bagging 300 棵與 Random Forest 200 棵的結果、bootstrap 不一致率與變異數公式都還在。作者自己的定稿可作為口吻參考。
